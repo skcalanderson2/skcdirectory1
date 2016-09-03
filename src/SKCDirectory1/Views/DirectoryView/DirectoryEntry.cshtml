@@ -1,0 +1,23 @@
+﻿@model SKCDirectory1.Models.DirectoryView
+
+@{ 
+    ViewData["Title"] = "Detail";
+}
+
+<a asp-controller="DirectoryView" asp-action="Index">Return to Directory List by Name</a>
+<br />
+<br />
+<a asp-controller="DirectoryView" asp-action="Group">Return to Directory List by Department</a>
+<br />
+<br />
+
+<hr />
+<div>
+    <h4>@Html.DisplayTextFor(Model => Model.FullName)</h4>
+    <h5>@Html.DisplayTextFor(Model => Model.Department)</h5>
+    <h5>@Html.DisplayTextFor(Model => Model.Email )</h5>
+    <h5>@Html.DisplayTextFor(Model => Model.PhoneNumber)</h5>
+    <h5>@Html.DisplayTextFor(Model => Model.Building)</h5>
+    <h5>Office Number: @Html.DisplayTextFor(Model => Model.OfficeNumber)</h5>
+
+</div>

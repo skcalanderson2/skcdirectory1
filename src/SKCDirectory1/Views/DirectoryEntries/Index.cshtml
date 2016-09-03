@@ -1,0 +1,48 @@
+﻿@model IEnumerable<SKCDirectory1.Models.DirectoryEntries>
+
+@{ 
+    ViewBag.Title = "Directory";
+}
+
+<h2>Directory</h2>
+
+
+<table class="table">
+    <tr>
+        <th>Id</th>
+        <th>FullName</th>
+        <th>Email</th>
+        <th>Building</th>
+        <th>Office Number</th>
+        <th>Phone Number</th>
+        <th>Department</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Building)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OfficeNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Department)
+            </td>
+
+        </tr>
+    }
+</table>

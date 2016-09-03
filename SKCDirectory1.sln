@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9094BA88-3746-4B66-AC1A-FB0FF715FD9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B0B59628-6BA0-4820-A372-E7AD759BE943}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SKCDirectory1", "src\SKCDirectory1\SKCDirectory1.xproj", "{034CF9EC-5927-4FCE-9641-F9B58D78EA7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{00FB5667-DF85-4FCE-8010-29499CB85534}"
+	ProjectSection(SolutionItems) = preProject
+		TextFile1.txt = TextFile1.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{034CF9EC-5927-4FCE-9641-F9B58D78EA7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{034CF9EC-5927-4FCE-9641-F9B58D78EA7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{034CF9EC-5927-4FCE-9641-F9B58D78EA7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{034CF9EC-5927-4FCE-9641-F9B58D78EA7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{034CF9EC-5927-4FCE-9641-F9B58D78EA7F} = {9094BA88-3746-4B66-AC1A-FB0FF715FD9F}
+		{00FB5667-DF85-4FCE-8010-29499CB85534} = {9094BA88-3746-4B66-AC1A-FB0FF715FD9F}
+	EndGlobalSection
+EndGlobal

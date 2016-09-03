@@ -1,0 +1,34 @@
+RoadMap
+========
+Created By Al Anderson, 9/1/2016
+
+Edit History
+============
+9/1/2016 - Document Created
+
+
+Overview
+========
+This document details the roadmap for development of the SKC Online Directory using ASP.NET Core
+
+Details
+=======
+Version 1.0
+- List of Employees with appropriate fields
+- Simple Search for Name
+- List Grouped by Department
+- Able to search grouped list by name
+
+Version 1.1
+- Bug fixes
+- Minor cosmetic changes
+- CSS Matched to SKC Branding
+
+Version 1.5
+- Clickable Row to show employee detail
+
+Version 2.0
+- Campus map with employee building location marked on map
+
+Verison 2.5
+- Building map with employee office location marked
