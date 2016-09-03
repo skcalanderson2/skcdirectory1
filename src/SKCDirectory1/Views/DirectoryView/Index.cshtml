@@ -33,9 +33,6 @@
     @foreach (var item in Model)
     {
         <tr>
-            @*<td>
-                @Html.DisplayFor(modelItem => item.FullName)
-            </td>*@
             <td>
                 <a asp-action="DirectoryEntry" asp-controller="DirectoryView" asp-route-id="@item.UserId">@item.FullName</a>
                 @*@Html.DisplayFor(modelItem => item.FullName)*@
